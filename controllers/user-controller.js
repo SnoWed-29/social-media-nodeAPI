@@ -33,7 +33,8 @@ const signup = async (req, res, next) => {
     const user = new User({
         name,
         email,
-        password: hashPassword
+        password: hashPassword, 
+        blogs:[]
     })
      
 
